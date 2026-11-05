@@ -1,0 +1,6 @@
+{
+  "name": "RuralCare Connect",
+  "description": "Unified rural healthcare access platform connecting smartphone patients, keypad SMS and missed-call users, Village Health Workers, doctors, and administrators.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

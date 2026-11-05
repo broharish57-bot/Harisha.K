@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f766e" />
+      <stop offset="100%" stop-color="#115e59" />
+    </linearGradient>
+    <linearGradient id="crossGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#ffffff" />
+      <stop offset="100%" stop-color="#f0fdf4" />
+    </linearGradient>
+  </defs>
+  <rect width="512" height="512" rx="128" fill="url(#bgGrad)" />
+  <!-- Protective Shield / Care Heart Curve -->
+  <path d="M256 70 C340 70 410 110 410 210 C410 330 256 430 256 430 C256 430 102 330 102 210 C102 110 172 70 256 70 Z" fill="rgba(255, 255, 255, 0.12)" />
+  <!-- Medical Care Cross -->
+  <path d="M226 150 H286 V226 H362 V286 H286 V362 H226 V286 H150 V226 H226 Z" fill="url(#crossGrad)" rx="16" />
+  <!-- Connectivity Signal Waves (symbolizing SMS & rural connectivity) -->
+  <circle cx="360" cy="150" r="14" fill="#34d399" />
+  <path d="M340 120 A 40 40 0 0 1 390 170" fill="none" stroke="#34d399" stroke-width="8" stroke-linecap="round" />
+</svg>
